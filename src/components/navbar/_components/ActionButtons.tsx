@@ -4,7 +4,10 @@ const ActionButtons = () => {
   return (
     <div className="pr-4">
       <div className="flex justify-center items-center space-x-4">
-        <Link href="/contact-sales" className="hidden lg:flex items-center">
+        <Link
+          href="/contact-sales"
+          className="hidden lg:flex items-center hover:bg-gray-100 px-2 py-1.5 rounded-md"
+        >
           Request a demo
         </Link>
         <div className="hidden lg:flex font-extralight text-gray-200 text-2xl">
@@ -12,7 +15,7 @@ const ActionButtons = () => {
         </div>
         <Link
           href="/free"
-          className="hidden lg:flex items-center rounded-md px-2 hover:bg-gray-100"
+          className="hidden lg:flex items-center rounded-md px-2 py-1.5 hover:bg-gray-100"
         >
           Log in
         </Link>
